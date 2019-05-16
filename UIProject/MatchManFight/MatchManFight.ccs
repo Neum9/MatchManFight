@@ -1,0 +1,28 @@
+<Solution>
+  <PropertyGroup Name="MatchManFight" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="CCBRes">
+          <Folder Name="StartScene">
+            <Folder Name="csd">
+              <Project Name="Start.csd" Type="Scene" />
+            </Folder>
+            <Folder Name="texture">
+              <Image Name="emptyBackground.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="FightScene">
+            <Folder Name="csd">
+              <Project Name="FightScene.csd" Type="Scene" />
+            </Folder>
+            <Folder Name="texture">
+              <Image Name="Background1.png" />
+              <Image Name="UserBloodAndEnergy.png" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
