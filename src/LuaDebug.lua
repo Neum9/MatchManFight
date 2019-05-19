@@ -1016,7 +1016,7 @@ local function debugger_receiveDebugBreakInfo()
 	if(jit) then
 		if(LuaDebugger.debugLuaType ~= "jit") then
 			local msg = "当前luajit版本为: "..jit.version.." 请使用LuaDebugjit 进行调试!"
-			print(msg)
+			--print(msg)
 			
 		end
 	end
@@ -1939,7 +1939,7 @@ local function start()
 					print("error======================================================")
 					local msg = "当前luajit版本为: "..jit.version.." 请使用LuaDebugjit 进行调试!"
 					
-					print(msg)
+					--print(msg)
 				end
 			end
 			_resume(coro_debugger, server)

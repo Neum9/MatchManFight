@@ -10,10 +10,9 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="CCBRes/StartScene/csd/Start.csd" />
-          <FilePathData Path="CCBRes/FightScene/csd/FightScene.csd" />
+          <FilePathData Path="CCBRes/MatchMan/csd/MatchMan.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="CCBRes/FightScene/csd/FightScene.csd" />
+        <ActiveDocument Path="CCBRes/MatchMan/csd/MatchMan.csd" />
       </Value>
     </Item>
   </Properties>

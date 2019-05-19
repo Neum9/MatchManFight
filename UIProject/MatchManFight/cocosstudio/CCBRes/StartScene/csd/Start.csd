@@ -14,8 +14,8 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.7705" />
             <PreSize X="0.2539" Y="0.0694" />
-            <OutlineColor A="0" R="0" G="0" B="0" />
-            <ShadowColor A="0" R="0" G="0" B="0" />
+            <OutlineColor A="255" R="0" G="0" B="0" />
+            <ShadowColor A="255" R="0" G="0" B="0" />
           </AbstractNodeData>
           <AbstractNodeData Name="StartGameButton" ActionTag="509496781" Tag="5" IconVisible="False" LeftMargin="535.9844" RightMargin="544.0156" TopMargin="323.2964" BottomMargin="296.7036" TouchEnable="True" FontSize="30" ButtonText="StartGame" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="20" Scale9Height="20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="200.0000" Y="100.0000" />
@@ -27,7 +27,7 @@
             <PreSize X="0.1563" Y="0.1389" />
             <TextColor A="255" R="255" G="255" B="255" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="Normal" Path="CCBRes/StartScene/texture/emptyBackground.png" Plist="" />
             <NormalFileData Type="Normal" Path="CCBRes/StartScene/texture/emptyBackground.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />

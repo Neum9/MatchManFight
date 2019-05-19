@@ -4,14 +4,6 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="CCBRes">
-          <Folder Name="StartScene">
-            <Folder Name="csd">
-              <Project Name="Start.csd" Type="Scene" />
-            </Folder>
-            <Folder Name="texture">
-              <Image Name="emptyBackground.png" />
-            </Folder>
-          </Folder>
           <Folder Name="FightScene">
             <Folder Name="csd">
               <Project Name="FightScene.csd" Type="Scene" />
@@ -19,6 +11,24 @@
             <Folder Name="texture">
               <Image Name="Background1.png" />
               <Image Name="UserBloodAndEnergy.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="MatchMan">
+            <Folder Name="csd">
+              <Project Name="MatchMan.csd" Type="Skeleton" />
+            </Folder>
+            <Folder Name="texture">
+              <Image Name="MatchManArm.png" />
+              <Image Name="MatchManHead.png" />
+              <Image Name="MathManBody.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="StartScene">
+            <Folder Name="csd">
+              <Project Name="Start.csd" Type="Scene" />
+            </Folder>
+            <Folder Name="texture">
+              <Image Name="emptyBackground.png" />
             </Folder>
           </Folder>
         </Folder>
