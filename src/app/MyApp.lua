@@ -6,6 +6,10 @@ function MyApp:onCreate()
 end
 
 function MyApp:run( )
+
+    --引用文件
+    require("app.views.Utils.helpFunc")
+
     -- body
     local startScene = require("app.views.Scenes.StartScene").new()
     --display.newScene(StartScene)

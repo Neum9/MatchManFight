@@ -32,7 +32,7 @@ function StartScene:onEvent()
                 -- body
             elseif eventType == ccui.TouchEventType.ended then
                 local fightScene = require("app.views.Scenes.FightScene").new()
-                display.runScene(fightScene)
+                display.runScene(fightScene, "fade", 0.5, cc.c3b(0, 0, 0))
             elseif eventType == ccui.TouchEventType.canceled then
             end
         end
