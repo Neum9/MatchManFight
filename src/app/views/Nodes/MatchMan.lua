@@ -47,7 +47,8 @@ function MatchMan:initControl()
 
     self:runAction(self.m_timeLine)
 
-    self.m_timeLine:play(MatchManAnimes.idle, true)
+    --self.m_timeLine:play(MatchManAnimes.idle, true)
+    self.m_timeLine:play(MatchManAnimes.run, true)
 
     --  键盘事件
     local listener = cc.EventListenerKeyboard:create()
