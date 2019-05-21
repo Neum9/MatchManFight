@@ -10,7 +10,10 @@ MatchManAnimes = {}
 MatchManAnimes["idle"] = "idle"
 MatchManAnimes["run"] = "run"
 MatchManAnimes["idleToRun"] = "idleToRun"
+MatchManAnimes["jump"] = "jump"
+MatchManAnimes["punch"] = "punch"
 
 MatchManAnimeEvents = {}
 
 MatchManAnimeEvents["idleEndToRun"] = "idleEndToRun"
+MatchManAnimeEvents["jumpEnd"] = "jumpEnd"

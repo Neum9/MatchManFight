@@ -23,7 +23,7 @@ function MatchMan:ctor()
 
     --  debug
     self:setPosition(display.cx, display.cy)
-    self:SetDir(MatchManDir.LEFT)
+    self:SetDir(MatchManDir.RIGHT)
     self:TurnToStatus(MatchManStatus.IDLE)
 end
 
@@ -41,6 +41,7 @@ function MatchMan:initValue()
     self.m_moveRightKeyCode = cc.KeyCode.KEY_D
     self.m_jumpKeyCode = cc.KeyCode.KEY_W
     self.m_squatKeyCode = cc.KeyCode.KEY_S
+    self.m_punchKeyCode = cc.KeyCode.KEY_J
 end
 
 function MatchMan:initProperty()
@@ -69,6 +70,8 @@ function MatchMan:initControl()
             self:FuncEventJumpRegister(keyCode, event)
             --  蹲下
             self:FuncEventSquatRegister(keyCode, event)
+            --  拳击
+            self:FuncEventPunchRegister(keyCode, event)
         end,
         cc.Handler.EVENT_KEYBOARD_PRESSED
     )
@@ -140,6 +143,8 @@ end
 function MatchMan:FuncEventJumpRegister(keyCode, event)
     if keyCode == self.m_jumpKeyCode then
         print("Jump!")
+        self.m_timeLine:play(MatchManAnimes.jump, false)
+        self.m_isJump = true
     end
 end
 
@@ -147,6 +152,12 @@ end
 function MatchMan:FuncEventSquatRegister(keyCode, event)
     if keyCode == self.m_squatKeyCode then
         print("Squat!")
+    end
+end
+
+function MatchMan:FuncEventPunchRegister(keyCode, event)
+    if keyCode == self.m_punchKeyCode then
+        self.m_timeLine:play(MatchManAnimes.punch, false)
     end
 end
 
@@ -193,7 +204,11 @@ end
 function MatchMan:StartOrStopMoveAction(isStart)
     if isStart then
         self:runAction(self.m_moveAction)
-        self:TurnToStatus(MatchManStatus.RUN)
+
+        --  假如在跳跃过程中则不播放奔跑动画
+        if not self.m_isJump then
+            self:TurnToStatus(MatchManStatus.RUN)
+        end
     else
         self:stopAction(self.m_moveAction)
         self:TurnToStatus(MatchManStatus.IDLE)
@@ -206,8 +221,10 @@ function MatchMan:AnimeMonitor()
         (function(frame)
             local event = frame:getEvent()
             if event == MatchManAnimeEvents.idleEndToRun then
-                print("Test")
                 self.m_timeLine:play(MatchManAnimes.run, true)
+            elseif event == MatchManAnimeEvents.jumpEnd then
+                self.m_isJump = false
+                self:TurnToStatus(MatchManStatus.IDLE)
             end
         end)
     )
