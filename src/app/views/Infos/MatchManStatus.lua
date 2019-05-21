@@ -10,3 +10,4 @@ MatchManStatus = {}
 MatchManStatus["IDLE"] = 0
 MatchManStatus["ATTACK"] = 1
 MatchManStatus["DEFENCE"] = 2
+MatchManStatus["RUN"] = 3

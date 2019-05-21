@@ -2,7 +2,7 @@
   <PropertyGroup Name="MatchMan" Type="Skeleton" ID="ac6742e4-1dd9-4659-b3d3-06518b0da458" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="130" Speed="1.0000" ActivedAnimationName="idle">
+      <Animation Duration="130" Speed="1.0000" ActivedAnimationName="idleToRun">
         <Timeline ActionTag="-836941826" Property="Position">
           <PointFrame FrameIndex="0" X="25.8221" Y="0.9664">
             <EasingData Type="0" />
@@ -248,13 +248,13 @@
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="2086424305" Property="RotationSkew">
-          <ScaleFrame FrameIndex="0" X="-63.5248" Y="-63.5248">
+          <ScaleFrame FrameIndex="0" X="-96.4727" Y="-96.4727">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="30" X="-54.1521" Y="-54.1521">
+          <ScaleFrame FrameIndex="30" X="-91.2255" Y="-91.2255">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="60" X="-63.5200" Y="-63.5200">
+          <ScaleFrame FrameIndex="60" X="-96.4700" Y="-96.4700">
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="70" X="-128.4459" Y="-128.4459">
@@ -467,22 +467,22 @@
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1829852478" Property="RotationSkew">
-          <ScaleFrame FrameIndex="0" X="53.2270" Y="53.2270">
+          <ScaleFrame FrameIndex="0" X="87.1400" Y="87.1400">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="30" X="50.8088" Y="50.8088">
+          <ScaleFrame FrameIndex="30" X="84.7250" Y="84.7250">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="60" X="53.2300" Y="53.2300">
+          <ScaleFrame FrameIndex="60" X="87.1462" Y="87.1462">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="70" X="113.8262" Y="113.8262">
+          <ScaleFrame FrameIndex="70" X="147.7425" Y="147.7425">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="100" X="126.4810" Y="126.4810">
+          <ScaleFrame FrameIndex="100" X="160.3972" Y="160.3972">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="130" X="113.8300" Y="113.8300">
+          <ScaleFrame FrameIndex="130" X="147.7462" Y="147.7462">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -773,13 +773,13 @@
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="2143201727" Property="RotationSkew">
-          <ScaleFrame FrameIndex="0" X="79.0289" Y="79.0289">
+          <ScaleFrame FrameIndex="0" X="87.4000" Y="87.4000">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="30" X="81.9837" Y="81.9837">
+          <ScaleFrame FrameIndex="30" X="86.2124" Y="86.2124">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="60" X="80.0014" Y="80.0014">
+          <ScaleFrame FrameIndex="60" X="87.4023" Y="87.4023">
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="70" X="79.0289" Y="79.0289">
@@ -992,13 +992,13 @@
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1520885905" Property="RotationSkew">
-          <ScaleFrame FrameIndex="0" X="-70.0159" Y="-70.0159">
+          <ScaleFrame FrameIndex="0" X="-78.1369" Y="-78.1369">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="30" X="-65.7748" Y="-65.7748">
+          <ScaleFrame FrameIndex="30" X="-77.0628" Y="-77.0628">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="60" X="-69.8473" Y="-69.8473">
+          <ScaleFrame FrameIndex="60" X="-78.1400" Y="-78.1400">
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="70" X="-70.0159" Y="-70.0159">
@@ -1060,6 +1060,9 @@
           <PointFrame FrameIndex="60" X="-0.6938" Y="-39.6091">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="69" X="-0.6938" Y="-39.6091">
+            <EasingData Type="0" />
+          </PointFrame>
           <PointFrame FrameIndex="70" X="-0.6938" Y="-39.6091">
             <EasingData Type="0" />
           </PointFrame>
@@ -1072,6 +1075,9 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="60" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="69" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="70" X="1.0000" Y="1.0000">
@@ -1088,6 +1094,9 @@
           <ScaleFrame FrameIndex="60" X="-809.2360" Y="-809.2349">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="69" X="-809.2360" Y="-809.2349">
+            <EasingData Type="0" />
+          </ScaleFrame>
           <ScaleFrame FrameIndex="70" X="-809.2360" Y="-809.2349">
             <EasingData Type="0" />
           </ScaleFrame>
@@ -1095,25 +1104,33 @@
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
+        <Timeline ActionTag="-1952265101" Property="FrameEvent">
+          <EventFrame FrameIndex="60" Tween="False" Value="" />
+          <EventFrame FrameIndex="69" Tween="False" Value="idleEndToRun" />
+          <EventFrame FrameIndex="70" Tween="False" Value="" />
+        </Timeline>
       </Animation>
       <AnimationList>
         <AnimationInfo Name="idle" StartIndex="0" EndIndex="60">
           <RenderColor A="255" R="250" G="250" B="210" />
         </AnimationInfo>
         <AnimationInfo Name="run" StartIndex="70" EndIndex="130">
-          <RenderColor A="150" R="253" G="245" B="230" />
+          <RenderColor A="255" R="253" G="245" B="230" />
+        </AnimationInfo>
+        <AnimationInfo Name="idleToRun" StartIndex="61" EndIndex="69">
+          <RenderColor A="150" R="0" G="191" B="255" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Skeleton" Tag="4" Length="20.0000" RotationSkewX="0.0000" RotationSkewY="0.0000" ctype="SkeletonNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
+          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" FrameEvent="idleEndToRun" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="Bone_13" ActionTag="487804260" ZOrder="2" Tag="38" Length="40.0000" RotationSkewX="-0.9555" RotationSkewY="-0.9555" ctype="BoneNodeObjectData">
+              <AbstractNodeData Name="Bone_13" ActionTag="487804260" ZOrder="2" Tag="38" Length="40.0000" RotationSkewX="4.2790" RotationSkewY="4.2790" ctype="BoneNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <Children>
-                  <AbstractNodeData Name="BoneHead" ActionTag="-1732665803" ZOrder="15" Tag="39" Length="24.0000" RotationSkewX="-0.4652" RotationSkewY="-0.4652" ctype="BoneNodeObjectData">
+                  <AbstractNodeData Name="BoneHead" ActionTag="-1732665803" ZOrder="15" Tag="39" Length="24.0000" RotationSkewX="5.6292" RotationSkewY="5.6292" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
                       <AbstractNodeData Name="head" CanEdit="False" ActionTag="-836941826" Tag="5" RotationSkewX="85.1864" RotationSkewY="85.1857" IconVisible="False" LeftMargin="0.8221" RightMargin="-50.8221" TopMargin="-25.9664" BottomMargin="-24.0336" ctype="SpriteObjectData">
@@ -1137,7 +1154,7 @@
                   <AbstractNodeData Name="Bone_26" ActionTag="-1478094287" ZOrder="26" Tag="51" Length="20.0000" RotationSkewX="-89.7401" RotationSkewY="-89.7401" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
-                      <AbstractNodeData Name="BoneLeftUpArm" ActionTag="2086424305" ZOrder="1" Tag="52" Length="60.0000" RotationSkewX="-54.4644" RotationSkewY="-54.4644" ctype="BoneNodeObjectData">
+                      <AbstractNodeData Name="BoneLeftUpArm" ActionTag="2086424305" ZOrder="1" Tag="52" Length="60.0000" RotationSkewX="-125.2483" RotationSkewY="-125.2483" ctype="BoneNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <Children>
                           <AbstractNodeData Name="BoneLeftDownArm" ActionTag="1738971392" ZOrder="28" Tag="53" Length="41.0000" RotationSkewX="-0.5509" RotationSkewY="-0.5509" ctype="BoneNodeObjectData">
@@ -1189,7 +1206,7 @@
                   <AbstractNodeData Name="Bone_23" ActionTag="-97109953" ZOrder="23" Tag="48" Length="21.0000" RotationSkewX="-266.4351" RotationSkewY="453.5588" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
-                      <AbstractNodeData Name="BoneRightUpArm" ActionTag="-1829852478" ZOrder="3" Tag="49" Length="59.0000" RotationSkewX="50.8895" RotationSkewY="50.8895" ctype="BoneNodeObjectData">
+                      <AbstractNodeData Name="BoneRightUpArm" ActionTag="-1829852478" ZOrder="3" Tag="49" Length="59.0000" RotationSkewX="141.6828" RotationSkewY="141.6828" ctype="BoneNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <Children>
                           <AbstractNodeData Name="BoneRightDownArm" ActionTag="-608960932" ZOrder="25" Tag="50" Length="42.0000" RotationSkewX="-1.2215" RotationSkewY="-1.2215" ctype="BoneNodeObjectData">
@@ -1259,7 +1276,7 @@
               <AbstractNodeData Name="Bone_18" ActionTag="-903627053" ZOrder="18" Tag="43" Length="20.0000" RotationSkewX="84.6621" RotationSkewY="84.6621" ctype="BoneNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <Children>
-                  <AbstractNodeData Name="BoneRightLeg" ActionTag="2143201727" ZOrder="3" Tag="44" Length="49.0000" RotationSkewX="81.9176" RotationSkewY="81.9176" ctype="BoneNodeObjectData">
+                  <AbstractNodeData Name="BoneRightLeg" ActionTag="2143201727" ZOrder="3" Tag="44" Length="49.0000" RotationSkewX="79.8662" RotationSkewY="79.8662" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
                       <AbstractNodeData Name="BoneRightFoot" ActionTag="-340406175" ZOrder="20" Tag="45" Length="71.0000" RotationSkewX="0.2869" RotationSkewY="0.2869" ctype="BoneNodeObjectData">
@@ -1311,7 +1328,7 @@
               <AbstractNodeData Name="Bone_16" ActionTag="-964968805" ZOrder="16" Tag="41" Length="20.0000" RotationSkewX="-92.1951" RotationSkewY="627.8018" ctype="BoneNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <Children>
-                  <AbstractNodeData Name="BoneLeftLeg" ActionTag="-1520885905" ZOrder="1" Tag="46" Length="48.0000" RotationSkewX="-65.9105" RotationSkewY="-65.9105" ctype="BoneNodeObjectData">
+                  <AbstractNodeData Name="BoneLeftLeg" ActionTag="-1520885905" ZOrder="1" Tag="46" Length="48.0000" RotationSkewX="-70.8283" RotationSkewY="-70.8283" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
                       <AbstractNodeData Name="BoneLeftFoot" ActionTag="-523723506" ZOrder="22" Tag="47" Length="70.0000" RotationSkewX="-1.6131" RotationSkewY="-1.6131" ctype="BoneNodeObjectData">
