@@ -2081,6 +2081,7 @@
           <EventFrame FrameIndex="69" Tween="False" Value="idleEndToRun" />
           <EventFrame FrameIndex="70" Tween="False" Value="" />
           <EventFrame FrameIndex="170" Tween="False" Value="jumpEnd" />
+          <EventFrame FrameIndex="200" Tween="False" Value="punchEnd" />
         </Timeline>
       </Animation>
       <AnimationList>
@@ -2094,16 +2095,16 @@
           <RenderColor A="255" R="0" G="191" B="255" />
         </AnimationInfo>
         <AnimationInfo Name="jump" StartIndex="140" EndIndex="170">
-          <RenderColor A="150" R="245" G="245" B="245" />
+          <RenderColor A="255" R="245" G="245" B="245" />
         </AnimationInfo>
         <AnimationInfo Name="punch" StartIndex="180" EndIndex="200">
-          <RenderColor A="150" R="255" G="228" B="181" />
+          <RenderColor A="255" R="255" G="228" B="181" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Skeleton" Tag="4" Length="20.0000" RotationSkewX="0.0000" RotationSkewY="0.0000" ctype="SkeletonNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
+          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" FrameEvent="punchEnd" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="Bone_13" ActionTag="487804260" ZOrder="2" Tag="38" Length="40.0000" RotationSkewX="-2.2050" RotationSkewY="-2.2050" ctype="BoneNodeObjectData">

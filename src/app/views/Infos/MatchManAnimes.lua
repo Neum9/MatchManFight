@@ -17,3 +17,4 @@ MatchManAnimeEvents = {}
 
 MatchManAnimeEvents["idleEndToRun"] = "idleEndToRun"
 MatchManAnimeEvents["jumpEnd"] = "jumpEnd"
+MatchManAnimeEvents["punchEnd"] = "punchEnd"

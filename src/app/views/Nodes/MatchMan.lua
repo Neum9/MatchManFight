@@ -10,10 +10,6 @@ local MatchMan =
     end
 )
 
-require("app.views.Infos.MatchManStatus")
-require("app.views.Infos.MatchManAnimes")
-require("app.views.Infos.MatchManDir")
-
 function MatchMan:ctor()
     self:initValue()
     self:initControl()
@@ -28,6 +24,7 @@ function MatchMan:ctor()
 end
 
 function MatchMan:initValue()
+    self.m_id = 0
     self.m_status = MatchManStatus.IDLE
     self.m_dir = MatchManDir.LEFT
     self.m_isJump = false
@@ -36,6 +33,9 @@ function MatchMan:initValue()
     self.m_moveAction = nil
     self.m_isPressedLeft = false
     self.m_isPressedRight = false
+    self.m_isPunch = false
+    --  when punch,it cause damage
+    self.m_isDamage = false
 
     self.m_moveLeftKeyCode = cc.KeyCode.KEY_A
     self.m_moveRightKeyCode = cc.KeyCode.KEY_D
@@ -49,10 +49,10 @@ function MatchMan:initProperty()
 end
 
 function MatchMan:initControl()
-    self.m_anim = cc.CSLoader:createNode("CCBRes/MatchMan/csd/MatchMan.csb"):addTo(self):setPosition(0, 0)
+    self.m_sprite = cc.CSLoader:createNode("CCBRes/MatchMan/csd/MatchMan.csb"):addTo(self):setPosition(0, 0)
     self.m_timeLine = cc.CSLoader:createTimeline("CCBRes/MatchMan/csd/MatchMan.csb")
     self:runAction(self.m_timeLine)
-    self.m_boneBody = self.m_anim:getChildByName("BoneBody")
+    self.m_boneBody = self.m_sprite:getChildByName("BoneBody")
 
     --self.m_timeLine:play(MatchManAnimes.idle, true)
     self.m_timeLine:play(MatchManAnimes.run, true)
@@ -141,8 +141,11 @@ end
 
 --  跳跃事件监听
 function MatchMan:FuncEventJumpRegister(keyCode, event)
+    if self.m_isJump or self.m_isPunch then
+        return
+    end
+
     if keyCode == self.m_jumpKeyCode then
-        print("Jump!")
         self.m_timeLine:play(MatchManAnimes.jump, false)
         self.m_isJump = true
     end
@@ -155,9 +158,16 @@ function MatchMan:FuncEventSquatRegister(keyCode, event)
     end
 end
 
+--  拳击事件监听
 function MatchMan:FuncEventPunchRegister(keyCode, event)
+    if self.m_isPunch or self.m_isJump then
+        return
+    end
+
     if keyCode == self.m_punchKeyCode then
+        self.m_isPunch = true
         self.m_timeLine:play(MatchManAnimes.punch, false)
+        self:Damage()
     end
 end
 
@@ -206,12 +216,15 @@ function MatchMan:StartOrStopMoveAction(isStart)
         self:runAction(self.m_moveAction)
 
         --  假如在跳跃过程中则不播放奔跑动画
-        if not self.m_isJump then
+        if not self.m_isJump and not self.m_isPunch then
             self:TurnToStatus(MatchManStatus.RUN)
         end
     else
         self:stopAction(self.m_moveAction)
-        self:TurnToStatus(MatchManStatus.IDLE)
+        --  假如在跳跃过程中则不播放闲置动画
+        if not self.m_isJump and not self.m_isPunch then
+            self:TurnToStatus(MatchManStatus.IDLE)
+        end
     end
 end
 
@@ -220,14 +233,71 @@ function MatchMan:AnimeMonitor()
     self.m_timeLine:setFrameEventCallFunc(
         (function(frame)
             local event = frame:getEvent()
+
             if event == MatchManAnimeEvents.idleEndToRun then
+                --  闲置到奔跑的动画结束
                 self.m_timeLine:play(MatchManAnimes.run, true)
             elseif event == MatchManAnimeEvents.jumpEnd then
+                --  跳跃动画结束
                 self.m_isJump = false
-                self:TurnToStatus(MatchManStatus.IDLE)
+                --  落地后检测是否移动按键已经释放
+                if self.m_isPressedLeft then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                elseif self.m_isPressedRight then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                else
+                    self:TurnToStatus(MatchManStatus.IDLE)
+                end
+            elseif event == MatchManAnimeEvents.punchEnd then
+                self.m_isPunch = false
+
+                self:EndDamage()
+
+                --  拳击后检测是否移动按键已经释放
+                if self.m_isPressedLeft then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                elseif self.m_isPressedRight then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                else
+                    self:TurnToStatus(MatchManStatus.IDLE)
+                end
             end
         end)
     )
+end
+
+--  set keyboard control
+function MatchMan:SetControlKey(...)
+    local arg = {...}
+    self.m_moveLeftKeyCode = arg[1]
+    self.m_moveRightKeyCode = arg[2]
+    self.m_jumpKeyCode = arg[3]
+    self.m_squatKeyCode = arg[4]
+    self.m_punchKeyCode = arg[5]
+end
+
+function MatchMan:Hurt()
+    print("player " .. self.m_id .. " hurt!")
+end
+
+function MatchMan:SetID(id)
+    self.m_id = id
+end
+
+function MatchMan:IsDamage()
+    return self.m_isDamage
+end
+
+function MatchMan:Damage()
+    self.m_isDamage = true
+
+    --  check hurt
+    PlayerManager:getInstance():StartCheckHurt()
+end
+
+function MatchMan:EndDamage()
+    self.m_isDamage = false
+    PlayerManager:getInstance():StopCheckHurt()
 end
 
 return MatchMan
