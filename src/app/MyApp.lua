@@ -11,6 +11,10 @@ function MyApp:run()
     require("app.views.Infos.MatchManAnimes")
     require("app.views.Infos.MatchManDir")
     require("app.views.Managers.PlayerManager")
+    require("app.views.Managers.AudioManager")
+
+    --  music preload
+    AudioEngine.preloadMusic("Music/click.mp3")
 
     -- body
     local startScene = require("app.views.Scenes.StartScene").new()

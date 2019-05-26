@@ -31,22 +31,13 @@ function StartScene:onEvent()
             elseif eventType == ccui.TouchEventType.moved then
                 -- body
             elseif eventType == ccui.TouchEventType.ended then
+                AudioManager.PlayClick()
                 local fightScene = require("app.views.Scenes.FightScene").new()
                 display.runScene(fightScene, "fade", 0.5, cc.c3b(0, 0, 0))
             elseif eventType == ccui.TouchEventType.canceled then
             end
         end
     )
-    -- display.setImageClick(
-    --     self.m_startGameButton,
-    --     handler(
-    --         self,
-    --         function()
-    --             -- body
-
-    --         end
-    --     )
-    -- )
 end
 
 return StartScene

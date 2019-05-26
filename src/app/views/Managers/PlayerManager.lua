@@ -40,6 +40,8 @@ function PlayerManager:StartCheckHurt()
         return
     end
 
+    local t = not self.m_playerList[1].m_isDamage and not self.m_playerList[2].m_isDamage
+
     if not self.m_playerList[1].m_isDamage and not self.m_playerList[2].m_isDamage then
         return
     end
@@ -65,7 +67,7 @@ function PlayerManager:StartCheckHurt()
                     self.m_playerList[2]:Hurt()
                 elseif self.m_playerList[1]:IsDamage() then
                     self.m_playerList[2]:EndDamage()
-                    self.m_playerList[1]:Hurt()                    
+                    self.m_playerList[1]:Hurt()
                 end
             end
         end,
@@ -77,5 +79,6 @@ end
 function PlayerManager:StopCheckHurt()
     if self.m_checkHurtScheduleID ~= nil then
         cc.Director:getInstance():getScheduler():unscheduleScriptEntry(self.m_checkHurtScheduleID)
+        self.m_checkHurtScheduleID = nil
     end
 end
