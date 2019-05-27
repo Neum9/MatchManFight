@@ -2,7 +2,7 @@
   <PropertyGroup Name="MatchMan" Type="Skeleton" ID="ac6742e4-1dd9-4659-b3d3-06518b0da458" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="200" Speed="1.0000" ActivedAnimationName="punch">
+      <Animation Duration="220" Speed="1.0000" ActivedAnimationName="hurt">
         <Timeline ActionTag="-836941826" Property="Position">
           <PointFrame FrameIndex="0" X="25.8221" Y="0.9664">
             <EasingData Type="0" />
@@ -26,6 +26,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="25.8221" Y="0.9664">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="25.8221" Y="0.9664">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="25.8221" Y="0.9664">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -54,6 +60,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-836941826" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="85.1864" Y="85.1857">
@@ -78,6 +90,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="85.1864" Y="85.1857">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="85.1864" Y="85.1857">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="85.1864" Y="85.1857">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -106,6 +124,12 @@
           <PointFrame FrameIndex="200" X="40.5588" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="40.5588" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="40.5588" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-1732665803" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -130,6 +154,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -161,6 +191,15 @@
           <ScaleFrame FrameIndex="200" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="212" X="-9.8284" Y="-9.8284">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-436680037" Property="Position">
           <PointFrame FrameIndex="0" X="20.7652" Y="0.4937">
@@ -185,6 +224,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="20.7652" Y="0.4937">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="20.7652" Y="0.4937">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="20.7652" Y="0.4937">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -213,6 +258,12 @@
           <ScaleFrame FrameIndex="200" X="0.7000" Y="0.7000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.7000" Y="0.7000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.7000" Y="0.7000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-436680037" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-89.4490" Y="270.5495">
@@ -237,6 +288,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-89.4490" Y="270.5495">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-89.4490" Y="270.5495">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-89.4490" Y="270.5495">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -265,6 +322,12 @@
           <PointFrame FrameIndex="200" X="60.6000" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="60.6000" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="60.6000" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="1738971392" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -289,6 +352,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -329,6 +398,15 @@
           <ScaleFrame FrameIndex="200" X="-0.5509" Y="-0.5509">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-0.5509" Y="-0.5509">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="-3.4217" Y="-3.4217">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-0.5509" Y="-0.5509">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1904463611" Property="Position">
           <PointFrame FrameIndex="0" X="30.3395" Y="0.6933">
@@ -353,6 +431,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="30.3395" Y="0.6933">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="30.3395" Y="0.6933">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="30.3395" Y="0.6933">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -381,6 +465,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1904463611" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="270.0000" Y="269.9990">
@@ -405,6 +495,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="270.0000" Y="269.9990">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="270.0000" Y="269.9990">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="270.0000" Y="269.9990">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -433,6 +529,12 @@
           <PointFrame FrameIndex="200" X="-0.1483" Y="0.4031">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="-0.1483" Y="0.4031">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="-0.1483" Y="0.4031">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="2086424305" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -457,6 +559,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -500,6 +608,15 @@
           <ScaleFrame FrameIndex="200" X="-96.4727" Y="-96.4727">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-96.4727" Y="-96.4727">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="-98.0458" Y="-98.0458">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-96.4727" Y="-96.4727">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1478094287" Property="Position">
           <PointFrame FrameIndex="0" X="17.4853" Y="1.1285">
@@ -524,6 +641,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="17.4853" Y="1.1285">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="17.4853" Y="1.1285">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="17.4853" Y="1.1285">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -552,6 +675,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1478094287" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-89.7401" Y="-89.7401">
@@ -576,6 +705,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-89.7401" Y="-89.7401">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-89.7401" Y="-89.7401">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-89.7401" Y="-89.7401">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -604,6 +739,12 @@
           <PointFrame FrameIndex="200" X="22.2650" Y="0.4918">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="22.2650" Y="0.4918">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="22.2650" Y="0.4918">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-1957085677" Property="Scale">
           <ScaleFrame FrameIndex="0" X="0.7000" Y="0.7000">
@@ -628,6 +769,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="0.7000" Y="0.7000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.7000" Y="0.7000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.7000" Y="0.7000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -656,6 +803,12 @@
           <ScaleFrame FrameIndex="200" X="90.5419" Y="90.5328">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="90.5419" Y="90.5328">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="90.5419" Y="90.5328">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-608960932" Property="Position">
           <PointFrame FrameIndex="0" X="59.6164" Y="0.0000">
@@ -682,6 +835,12 @@
           <PointFrame FrameIndex="200" X="59.6164" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="59.6164" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="59.6164" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-608960932" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -706,6 +865,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -746,6 +911,15 @@
           <ScaleFrame FrameIndex="200" X="-1.2215" Y="-1.2215">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-1.2215" Y="-1.2215">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="-9.9753" Y="-9.9753">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-1.2215" Y="-1.2215">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-924686600" Property="Position">
           <PointFrame FrameIndex="0" X="30.8674" Y="0.0287">
@@ -770,6 +944,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="30.8674" Y="0.0287">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="30.8674" Y="0.0287">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="30.8674" Y="0.0287">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -798,6 +978,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-924686600" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="88.6582" Y="88.6502">
@@ -822,6 +1008,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="88.6582" Y="88.6502">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="88.6582" Y="88.6502">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="88.6582" Y="88.6502">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -850,6 +1042,12 @@
           <PointFrame FrameIndex="200" X="0.1069" Y="-0.7963">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="0.1069" Y="-0.7963">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="0.1069" Y="-0.7963">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-1829852478" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -874,6 +1072,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -917,6 +1121,15 @@
           <ScaleFrame FrameIndex="200" X="87.1399" Y="87.1399">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="87.1399" Y="87.1399">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="212" X="86.8863" Y="86.8863">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="87.1399" Y="87.1399">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-97109953" Property="Position">
           <PointFrame FrameIndex="0" X="17.8650" Y="0.3179">
@@ -941,6 +1154,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="17.8650" Y="0.3179">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="17.8650" Y="0.3179">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="17.8650" Y="0.3179">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -969,6 +1188,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-97109953" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-266.4351" Y="453.5588">
@@ -993,6 +1218,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-266.4351" Y="453.5588">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-266.4351" Y="453.5588">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-266.4351" Y="453.5588">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1021,6 +1252,12 @@
           <PointFrame FrameIndex="200" X="1.2042" Y="-0.5703">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="1.2042" Y="-0.5703">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="1.2042" Y="-0.5703">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="1633296767" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1045,6 +1282,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1073,6 +1316,12 @@
           <ScaleFrame FrameIndex="200" X="-1708.5593" Y="91.4392">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-1708.5593" Y="91.4392">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-1708.5593" Y="91.4392">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="487804260" Property="Position">
           <PointFrame FrameIndex="0" X="38.2543" Y="0.0000">
@@ -1099,6 +1348,12 @@
           <PointFrame FrameIndex="200" X="38.2543" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="38.2543" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="38.2543" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="487804260" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1123,6 +1378,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1160,6 +1421,15 @@
           <ScaleFrame FrameIndex="200" X="-2.2050" Y="-2.2050">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-2.2050" Y="-2.2050">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="212" X="-9.4443" Y="-9.4443">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-2.2050" Y="-2.2050">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="421930410" Property="Position">
           <PointFrame FrameIndex="0" X="37.5051" Y="0.2514">
@@ -1184,6 +1454,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="37.5051" Y="0.2514">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="37.5051" Y="0.2514">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="37.5051" Y="0.2514">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -1212,6 +1488,12 @@
           <ScaleFrame FrameIndex="200" X="0.5000" Y="1.2000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.5000" Y="1.2000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.5000" Y="1.2000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="421930410" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-89.8269" Y="-89.8279">
@@ -1236,6 +1518,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-89.8269" Y="-89.8279">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-89.8269" Y="-89.8279">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-89.8269" Y="-89.8279">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1264,6 +1552,12 @@
           <PointFrame FrameIndex="200" X="49.8016" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="49.8016" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="49.8016" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-340406175" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1288,6 +1582,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1325,6 +1625,15 @@
           <ScaleFrame FrameIndex="200" X="0.2869" Y="0.2869">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.2869" Y="0.2869">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="0.7589" Y="0.7589">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.2869" Y="0.2869">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1553518467" Property="Position">
           <PointFrame FrameIndex="0" X="27.3741" Y="0.4436">
@@ -1349,6 +1658,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="27.3741" Y="0.4436">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="27.3741" Y="0.4436">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="27.3741" Y="0.4436">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -1377,6 +1692,12 @@
           <ScaleFrame FrameIndex="200" X="0.7000" Y="0.8000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.7000" Y="0.8000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.7000" Y="0.8000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1553518467" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-89.5405" Y="-89.5411">
@@ -1401,6 +1722,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-89.5405" Y="-89.5411">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-89.5405" Y="-89.5411">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-89.5405" Y="-89.5411">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1429,6 +1756,12 @@
           <PointFrame FrameIndex="200" X="-0.5345" Y="0.8452">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="-0.5345" Y="0.8452">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="-0.5345" Y="0.8452">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="2143201727" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1453,6 +1786,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1493,6 +1832,15 @@
           <ScaleFrame FrameIndex="200" X="87.4000" Y="87.4000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="87.4000" Y="87.4000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="85.7807" Y="85.7807">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="87.4000" Y="87.4000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="2143201727" Property="FrameEvent">
           <EventFrame FrameIndex="200" Tween="False" Value="punchEnd" />
@@ -1522,6 +1870,12 @@
           <PointFrame FrameIndex="200" X="1.5347" Y="-0.4504">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="1.5347" Y="-0.4504">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="1.5347" Y="-0.4504">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-903627053" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1546,6 +1900,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1574,6 +1934,12 @@
           <ScaleFrame FrameIndex="200" X="84.6621" Y="84.6621">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="84.6621" Y="84.6621">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="84.6621" Y="84.6621">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1012870570" Property="Position">
           <PointFrame FrameIndex="0" X="36.9305" Y="0.6363">
@@ -1598,6 +1964,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="36.9305" Y="0.6363">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="36.9305" Y="0.6363">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="36.9305" Y="0.6363">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -1626,6 +1998,12 @@
           <ScaleFrame FrameIndex="200" X="0.5000" Y="1.2000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.5000" Y="1.2000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.5000" Y="1.2000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1012870570" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-90.1746" Y="-90.1790">
@@ -1650,6 +2028,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-90.1746" Y="-90.1790">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-90.1746" Y="-90.1790">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-90.1746" Y="-90.1790">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1678,6 +2062,12 @@
           <PointFrame FrameIndex="200" X="48.5630" Y="0.0000">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="48.5630" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="48.5630" Y="0.0000">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-523723506" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1702,6 +2092,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1739,6 +2135,12 @@
           <ScaleFrame FrameIndex="200" X="-1.6131" Y="-1.6131">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-1.6131" Y="-1.6131">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-1.6131" Y="-1.6131">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-535407462" Property="Position">
           <PointFrame FrameIndex="0" X="25.5574" Y="-0.0986">
@@ -1763,6 +2165,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="25.5574" Y="-0.0986">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="25.5574" Y="-0.0986">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="25.5574" Y="-0.0986">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -1791,6 +2199,12 @@
           <ScaleFrame FrameIndex="200" X="0.7000" Y="0.8000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="0.7000" Y="0.8000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="0.7000" Y="0.8000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-535407462" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-91.7883" Y="-91.7918">
@@ -1815,6 +2229,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-91.7883" Y="-91.7918">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-91.7883" Y="-91.7918">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-91.7883" Y="-91.7918">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1843,6 +2263,12 @@
           <PointFrame FrameIndex="200" X="0.2461" Y="0.9598">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="0.2461" Y="0.9598">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="0.2461" Y="0.9598">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-1520885905" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -1867,6 +2293,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -1907,6 +2339,15 @@
           <ScaleFrame FrameIndex="200" X="-78.1369" Y="-78.1369">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-78.1369" Y="-78.1369">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="210" X="-80.8724" Y="-80.8724">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-78.1369" Y="-78.1369">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-964968805" Property="Position">
           <PointFrame FrameIndex="0" X="1.4689" Y="-0.1544">
@@ -1931,6 +2372,12 @@
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="200" X="1.4689" Y="-0.1544">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="205" X="1.4689" Y="-0.1544">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="1.4689" Y="-0.1544">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -1959,6 +2406,12 @@
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-964968805" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="-92.1951" Y="627.8018">
@@ -1983,6 +2436,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="-92.1951" Y="627.8018">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-92.1951" Y="627.8018">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-92.1951" Y="627.8018">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -2017,6 +2476,12 @@
           <PointFrame FrameIndex="200" X="-0.6938" Y="-39.6091">
             <EasingData Type="0" />
           </PointFrame>
+          <PointFrame FrameIndex="205" X="-0.6938" Y="-39.6091">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="220" X="-0.6938" Y="-39.6091">
+            <EasingData Type="0" />
+          </PointFrame>
         </Timeline>
         <Timeline ActionTag="-1952265101" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
@@ -2044,6 +2509,12 @@
             <EasingData Type="0" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="200" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -2075,6 +2546,12 @@
           <ScaleFrame FrameIndex="200" X="-809.2360" Y="-809.2349">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="205" X="-809.2360" Y="-809.2349">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="220" X="-809.2360" Y="-809.2349">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="-1952265101" Property="FrameEvent">
           <EventFrame FrameIndex="60" Tween="False" Value="" />
@@ -2082,6 +2559,7 @@
           <EventFrame FrameIndex="70" Tween="False" Value="" />
           <EventFrame FrameIndex="170" Tween="False" Value="jumpEnd" />
           <EventFrame FrameIndex="200" Tween="False" Value="punchEnd" />
+          <EventFrame FrameIndex="220" Tween="False" Value="hurtEnd" />
         </Timeline>
       </Animation>
       <AnimationList>
@@ -2100,11 +2578,14 @@
         <AnimationInfo Name="punch" StartIndex="180" EndIndex="200">
           <RenderColor A="255" R="255" G="228" B="181" />
         </AnimationInfo>
+        <AnimationInfo Name="hurt" StartIndex="205" EndIndex="220">
+          <RenderColor A="150" R="135" G="206" B="250" />
+        </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Skeleton" Tag="4" Length="20.0000" RotationSkewX="0.0000" RotationSkewY="0.0000" ctype="SkeletonNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" FrameEvent="punchEnd" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
+          <AbstractNodeData Name="BoneBody" ActionTag="-1952265101" ZOrder="29" Tag="37" FrameEvent="hurtEnd" Length="38.0000" RotationSkewX="-809.2360" RotationSkewY="-809.2349" ctype="BoneNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="Bone_13" ActionTag="487804260" ZOrder="2" Tag="38" Length="40.0000" RotationSkewX="-2.2050" RotationSkewY="-2.2050" ctype="BoneNodeObjectData">
@@ -2256,7 +2737,7 @@
               <AbstractNodeData Name="Bone_18" ActionTag="-903627053" ZOrder="18" Tag="43" Length="20.0000" RotationSkewX="84.6621" RotationSkewY="84.6621" ctype="BoneNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <Children>
-                  <AbstractNodeData Name="BoneRightLeg" ActionTag="2143201727" ZOrder="3" Tag="44" FrameEvent="punchEnd" Length="49.0000" RotationSkewX="87.4000" RotationSkewY="87.4000" ctype="BoneNodeObjectData">
+                  <AbstractNodeData Name="BoneRightLeg" ActionTag="2143201727" ZOrder="3" Tag="44" Length="49.0000" RotationSkewX="87.4000" RotationSkewY="87.4000" ctype="BoneNodeObjectData">
                     <Size X="0.0000" Y="0.0000" />
                     <Children>
                       <AbstractNodeData Name="BoneRightFoot" ActionTag="-340406175" ZOrder="20" Tag="45" Length="71.0000" RotationSkewX="0.2869" RotationSkewY="0.2869" ctype="BoneNodeObjectData">

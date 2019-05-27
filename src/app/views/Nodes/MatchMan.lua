@@ -261,6 +261,15 @@ function MatchMan:AnimeMonitor()
                 else
                     self:TurnToStatus(MatchManStatus.IDLE)
                 end
+            elseif event == MatchManAnimeEvents.hurtEnd then
+                --  拳击后检测是否移动按键已经释放
+                if self.m_isPressedLeft then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                elseif self.m_isPressedRight then
+                    self:TurnToStatus(MatchManStatus.RUN)
+                else
+                    self:TurnToStatus(MatchManStatus.IDLE)
+                end
             end
         end)
     )
@@ -278,6 +287,7 @@ end
 
 function MatchMan:Hurt()
     print("player " .. self.m_id .. " hurt!")
+    self.m_timeLine:play(MatchManAnimes.hurt, false)
 end
 
 function MatchMan:SetID(id)

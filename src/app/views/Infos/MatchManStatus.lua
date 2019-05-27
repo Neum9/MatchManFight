@@ -5,7 +5,12 @@
 
 --  MatchMan 状态
 
-MatchManStatus = {}
+MatchManStatus = {
+    IDLE = 0,
+    ATTACK = 1,
+    DEFENCE = 2,
+    RUN = 3,
+}
 
 MatchManStatus["IDLE"] = 0
 MatchManStatus["ATTACK"] = 1

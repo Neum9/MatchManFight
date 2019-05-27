@@ -65,7 +65,7 @@ function PlayerManager:StartCheckHurt()
                 if self.m_playerList[1]:IsDamage() then
                     self.m_playerList[1]:EndDamage()
                     self.m_playerList[2]:Hurt()
-                elseif self.m_playerList[1]:IsDamage() then
+                elseif self.m_playerList[2]:IsDamage() then
                     self.m_playerList[2]:EndDamage()
                     self.m_playerList[1]:Hurt()
                 end

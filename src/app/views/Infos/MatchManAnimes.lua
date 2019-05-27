@@ -5,16 +5,18 @@
 
 --  MatchMan动画列表
 
-MatchManAnimes = {}
+MatchManAnimes = {
+    idle = "idle",
+    run = "run",
+    idleToRun = "idleToRun",
+    jump = "jump",
+    punch = "punch",
+    hurt = "hurt",
+}
 
-MatchManAnimes["idle"] = "idle"
-MatchManAnimes["run"] = "run"
-MatchManAnimes["idleToRun"] = "idleToRun"
-MatchManAnimes["jump"] = "jump"
-MatchManAnimes["punch"] = "punch"
-
-MatchManAnimeEvents = {}
-
-MatchManAnimeEvents["idleEndToRun"] = "idleEndToRun"
-MatchManAnimeEvents["jumpEnd"] = "jumpEnd"
-MatchManAnimeEvents["punchEnd"] = "punchEnd"
+MatchManAnimeEvents = {
+    idleEndToRun = "idleEndToRun",
+    jumpEnd = "jumpEnd",
+    punchEnd = "punchEnd",
+    hurtEnd = "hurtEnd",
+}

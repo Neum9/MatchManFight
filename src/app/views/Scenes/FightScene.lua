@@ -32,7 +32,7 @@ function FightScene:AddPlayer()
     matchMan1:SetControlKey(cc.KeyCode.KEY_A, cc.KeyCode.KEY_D, cc.KeyCode.KEY_W, cc.KeyCode.KEY_S, cc.KeyCode.KEY_J)
 
     --MatchMan 2
-    matchMan1:SetID(2)
+    matchMan2:SetID(2)
     matchMan2:SetDir(MatchManDir.LEFT)
     matchMan2:setPositionX(display.cx + 200)
     matchMan2:SetControlKey(
