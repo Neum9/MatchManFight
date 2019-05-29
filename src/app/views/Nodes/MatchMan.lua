@@ -46,6 +46,10 @@ end
 
 function MatchMan:initProperty()
     self.m_speed = 8
+    self.m_health = 100
+    -- attack power
+    self.m_aggressivity = 20
+    self.m_defensivePower = 10
 end
 
 function MatchMan:initControl()
@@ -285,9 +289,15 @@ function MatchMan:SetControlKey(...)
     self.m_punchKeyCode = arg[5]
 end
 
-function MatchMan:Hurt()
+function MatchMan:Hurt(otherMatchMan)
     print("player " .. self.m_id .. " hurt!")
     self.m_timeLine:play(MatchManAnimes.hurt, false)
+
+    --decrease health
+    local damage = otherMatchMan.m_aggressivity - self.m_defensivePower
+    if damage > 0 then
+        self.m_health = self.m_health - damage
+    end
 end
 
 function MatchMan:SetID(id)
@@ -308,6 +318,14 @@ end
 function MatchMan:EndDamage()
     self.m_isDamage = false
     PlayerManager:getInstance():StopCheckHurt()
+end
+
+function MatchMan:GetAggressivity()
+    return self.m_aggressivity
+end
+
+function MatchMan:GetDefensivePower()
+    return self.m_defensivePower
 end
 
 return MatchMan

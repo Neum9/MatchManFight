@@ -11,8 +11,9 @@
       <Value ctype="TabsInfo">
         <OpenedDocuments>
           <FilePathData Path="CCBRes/MatchMan/csd/MatchMan.csd" />
+          <FilePathData Path="CCBRes/FightScene/csd/FightScene.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="CCBRes/MatchMan/csd/MatchMan.csd" />
+        <ActiveDocument Path="CCBRes/FightScene/csd/FightScene.csd" />
       </Value>
     </Item>
   </Properties>
