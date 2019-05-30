@@ -15,8 +15,18 @@ local FightScene =
 function FightScene:ctor()
     self.m_mainView = cc.CSLoader:createNode("CCBRes/FightScene/csd/FightScene.csb"):addTo(self)
 
+    self:InitView()
+
     self:AddPlayer()
     self:AddMap()
+end
+
+function FightScene:InitView( )
+    self.m_nodePlayerInfo = self.m_mainView:getChildByName("PlayerInfo")
+    self.m_bloodAndEnergyPlayer1 = self.m_nodePlayerInfo:getChildByName("PlayerBloodAndEnergy1")
+    self.m_bloodAndEnergyPlayer2 = self.m_nodePlayerInfo:getChildByName("PlayerBloodAndEnergy2")
+    self.m_UIHealthPlayer1 = self.m_bloodAndEnergyPlayer1:getChildByName("health")
+    self.m_UIHealthPlayer2 = self.m_bloodAndEnergyPlayer2:getChildByName("health")
 end
 
 function FightScene:AddPlayer()
@@ -31,6 +41,8 @@ function FightScene:AddPlayer()
     matchMan1:setPositionX(display.cx - 200)
     matchMan1:SetControlKey(cc.KeyCode.KEY_A, cc.KeyCode.KEY_D, cc.KeyCode.KEY_W, cc.KeyCode.KEY_S, cc.KeyCode.KEY_J)
 
+    matchMan1:SetUIHealth(self.m_UIHealthPlayer1)
+
     --MatchMan 2
     matchMan2:SetID(2)
     matchMan2:SetDir(MatchManDir.LEFT)
@@ -42,6 +54,7 @@ function FightScene:AddPlayer()
         cc.KeyCode.KEY_DOWN_ARROW,
         cc.KeyCode.KEY_1
     )
+    matchMan2:SetUIHealth(self.m_UIHealthPlayer2)
 
     PlayerManager:getInstance():AddPlayer(matchMan1)
     PlayerManager:getInstance():AddPlayer(matchMan2)

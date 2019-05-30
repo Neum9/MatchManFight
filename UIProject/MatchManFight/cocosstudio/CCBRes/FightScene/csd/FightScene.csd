@@ -20,7 +20,7 @@
           <AbstractNodeData Name="PlayerInfo" ActionTag="1252448513" Tag="11" IconVisible="True" RightMargin="1280.0000" TopMargin="720.0000" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="PlayerBoodAndEnergy1" ActionTag="-58706793" Tag="9" IconVisible="False" LeftMargin="50.0000" RightMargin="-550.0000" TopMargin="-675.0000" BottomMargin="525.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="PlayerBloodAndEnergy1" ActionTag="-58706793" Tag="9" IconVisible="False" LeftMargin="50.0000" RightMargin="-550.0000" TopMargin="-675.0000" BottomMargin="525.0000" ctype="SpriteObjectData">
                 <Size X="500.0000" Y="150.0000" />
                 <Children>
                   <AbstractNodeData Name="health" ActionTag="-1085165501" Tag="32" IconVisible="False" LeftMargin="109.3485" RightMargin="10.6515" TopMargin="39.9191" BottomMargin="78.0809" ProgressInfo="100" ctype="LoadingBarObjectData">
@@ -43,7 +43,7 @@
                 <FileData Type="Normal" Path="CCBRes/FightScene/texture/UserBloodAndEnergy.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="PlayerBoodAndEnergy2" ActionTag="-906135648" Tag="10" IconVisible="False" LeftMargin="730.0000" RightMargin="-1230.0000" TopMargin="-675.0000" BottomMargin="525.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="PlayerBloodAndEnergy2" ActionTag="-906135648" Tag="10" IconVisible="False" LeftMargin="730.0000" RightMargin="-1230.0000" TopMargin="-675.0000" BottomMargin="525.0000" ctype="SpriteObjectData">
                 <Size X="500.0000" Y="150.0000" />
                 <Children>
                   <AbstractNodeData Name="health" ActionTag="1436105261" Tag="33" IconVisible="False" LeftMargin="109.0930" RightMargin="10.9070" TopMargin="39.9959" BottomMargin="78.0041" ProgressInfo="100" ctype="LoadingBarObjectData">

@@ -50,6 +50,11 @@ function MatchMan:initProperty()
     -- attack power
     self.m_aggressivity = 20
     self.m_defensivePower = 10
+
+    self.m_maxHealth = 100
+
+    --health
+    self.m_uiHealth = nil
 end
 
 function MatchMan:initControl()
@@ -91,6 +96,14 @@ function MatchMan:initControl()
     )
 
     cc.Director:getInstance():getEventDispatcher():addEventListenerWithSceneGraphPriority(listener, self)
+end
+
+function MatchMan:SetUIHealth(healthSlider)
+    self.m_uiHealth = healthSlider
+end
+
+function MatchMan:UpdateUIHealth()
+    self.m_uiHealth:setPercent(self.m_health / self.m_maxHealth * 100)
 end
 
 --  移动事件监听
@@ -297,6 +310,13 @@ function MatchMan:Hurt(otherMatchMan)
     local damage = otherMatchMan.m_aggressivity - self.m_defensivePower
     if damage > 0 then
         self.m_health = self.m_health - damage
+        if self.m_health < 0 then
+            self.m_health = 0
+        end
+        self:UpdateUIHealth()
+        if self:JudgeDead() then
+            print("Player"..self.m_id.."is dead")
+        end
     end
 end
 
@@ -326,6 +346,10 @@ end
 
 function MatchMan:GetDefensivePower()
     return self.m_defensivePower
+end
+
+function MatchMan:JudgeDead()
+    return self.m_health <= 0
 end
 
 return MatchMan

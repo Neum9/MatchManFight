@@ -7,14 +7,5 @@
         <LastRunType Value="Windows" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="CCBRes/MatchMan/csd/MatchMan.csd" />
-          <FilePathData Path="CCBRes/FightScene/csd/FightScene.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="CCBRes/FightScene/csd/FightScene.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>
